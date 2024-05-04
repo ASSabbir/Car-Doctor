@@ -1,0 +1,38 @@
+.input-button-js::after{
+    content: '';
+    background-color: aliceblue;
+    position: absolute;
+    height: 0.125rem;
+    left: 0;
+    bottom: 0;
+    background: #FF3811;
+    width: 100%;
+    transform: scale(0,1);
+    transition: transform 0.5s ease;
+    transform-origin: 0% 100%;
+}
+.input-button-js{
+    position: relative;
+}
+.input-button-js:hover::after{
+    transform: scale(1,1);
+}
+.input-button-js-up::after{
+    content: '';
+    background-color: aliceblue;
+    position: absolute;
+    height: 0.125rem;
+    left: 0;
+    top: 0;
+    background: #FF3811;
+    width: 100%;
+    transform: scale(0,1);
+    transition: transform 0.5s ease;
+    transform-origin: 0% 100%;
+}
+.input-button-js-up{
+    position: relative;
+}
+.input-button-js-up:hover::after{
+    transform: scale(1,1);
+}
